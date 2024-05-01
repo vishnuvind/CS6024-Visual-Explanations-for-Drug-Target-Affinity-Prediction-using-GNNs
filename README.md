@@ -22,11 +22,11 @@ Folder structure of the project directory is given below:
     ├── LICENSE
     ├── README.md
     ├── dataset.py
-    ├── explain.py
+    ├── explain.py         [explain the predictions made by saved models]
     ├── explain.sh
-    ├── explainers.py
-    ├── metrics.py
-    ├── model.py
+    ├── explainers.py      [explainers ─ GradAAM & GradTAM]
+    ├── metrics.py         [metrics used for evaluation]
+    ├── model.py           [GraphDTA type models ─ GCN/GIN/GAT]
     ├── preprocessing.py
     ├── train.py
     ├── train.sh
