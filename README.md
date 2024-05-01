@@ -1,2 +1,37 @@
 # CS6024-Visual-Explanations-for-Drug-Target-Affinity-Prediction-using-GNNs
 Repository containing all the code written for the course project of CS6024: Algorithmic Approaches for Computational Biology offered by Prof. Manikandan Narayanan during the Jan-May 2024 semester at IIT Madras.
+
+## Folder Structure
+Folder structure of the project directory is given below:
+
+```
+    ├── data            [datasets for XOR and Transverse Ising Model (TIM) classification tasks]
+    │   ├── Davis
+    │   │   └── ...     (raw files: get processed data by running preprocessing.py)
+    │   └── KIBA
+    │       └── ...     (raw files: get processed data by running preprocessing.py)
+    ├── logs
+    |   ├── __init__.py
+    |   ├── basic_logger.py
+    |   ├── train_logger.py
+    |   └── explain_logger.py
+    ├── results         [Directory to store all activation maps / explain logs]
+    │   └── ...
+    ├── save            [Directory to store all models / train logs]
+    │   └── ...         
+    ├── LICENSE
+    ├── README.md
+    ├── dataset.py
+    ├── explain.py
+    ├── explain.sh
+    ├── explainers.py
+    ├── metrics.py
+    ├── model.py
+    ├── preprocessing.py
+    ├── train.py
+    ├── train.sh
+    └── utils.py
+```
+
+## Computational Requirements
+Kindly note that **CUDA devices are required in order to execute the code**.
