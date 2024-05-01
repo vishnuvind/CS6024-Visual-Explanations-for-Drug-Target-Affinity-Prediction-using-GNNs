@@ -214,4 +214,5 @@ class GNNDataset(InMemoryDataset):
 
 
 if __name__ == "__main__":
+    dataset = GNNDataset('data/Davis')
     dataset = GNNDataset('data/KIBA')
