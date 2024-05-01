@@ -1,0 +1,52 @@
+2024-04-29 15:16:03 - INFO - explain_drug_target.py
+2024-04-29 15:16:04 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-29 15:16:04 - INFO - Saliency threshold 0.00
+2024-04-29 15:18:32 - INFO - explain_drug_target.py
+2024-04-29 15:18:32 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-29 15:18:32 - INFO - Saliency threshold 0.00
+2024-04-29 16:27:47 - INFO - explain_drug_target.py
+2024-04-29 16:27:48 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-29 16:27:48 - INFO - Saliency threshold 0.00
+2024-04-29 16:28:05 - INFO - C-Index with only Salient regions: 0.85470
+2024-04-29 16:28:05 - INFO - C-Index excluding Salient regions: 0.85470
+2024-04-29 16:28:05 - INFO - R2 Score with only Salient regions: 0.69138
+2024-04-29 16:28:05 - INFO - R2 Score excluding Salient regions: 0.69138
+2024-04-29 16:28:05 - INFO - MSE Loss with only Salient regions: 0.15221
+2024-04-29 16:28:05 - INFO - MSE Loss excluding Salient regions: 0.15221
+2024-04-29 16:28:05 - INFO - Drug Explanation Sparsity: Mean = 0.03773 Std = 0.01438
+2024-04-29 16:28:05 - INFO - Targ Explanation Sparsity: Mean = 0.00083 Std = 0.00000
+2024-04-29 16:28:05 - INFO - COMPLETE!
+
+2024-04-29 16:31:18 - INFO - explain_drug_target.py
+2024-04-29 16:31:19 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-29 16:31:19 - INFO - Saliency threshold 0.00
+2024-04-29 16:33:44 - INFO - C-Index with only Salient regions: 0.87421
+2024-04-29 16:33:44 - INFO - C-Index excluding Salient regions: 0.87421
+2024-04-29 16:33:44 - INFO - R2 Score with only Salient regions: 0.65727
+2024-04-29 16:33:44 - INFO - R2 Score excluding Salient regions: 0.65727
+2024-04-29 16:33:44 - INFO - MSE Loss with only Salient regions: 0.22439
+2024-04-29 16:33:44 - INFO - MSE Loss excluding Salient regions: 0.22439
+2024-04-29 16:33:44 - INFO - Drug Explanation Sparsity: Mean = 0.03640 Std = 0.01416
+2024-04-29 16:33:44 - INFO - Targ Explanation Sparsity: Mean = 0.00083 Std = 0.00000
+2024-04-29 16:33:44 - INFO - COMPLETE!
+
+2024-04-30 10:21:32 - INFO - explain_drug_target.py
+2024-04-30 10:21:33 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-30 10:21:33 - INFO - Saliency threshold 0.00
+2024-04-30 10:24:33 - INFO - C-Index with only Salient regions: 0.87421
+2024-04-30 10:24:33 - INFO - C-Index excluding Salient regions: 0.87421
+2024-04-30 10:24:33 - INFO - R2 Score with only Salient regions: 0.65727
+2024-04-30 10:24:33 - INFO - R2 Score excluding Salient regions: 0.65727
+2024-04-30 10:24:33 - INFO - MSE Loss with only Salient regions: 0.22439
+2024-04-30 10:24:33 - INFO - MSE Loss excluding Salient regions: 0.22439
+2024-04-30 10:24:33 - INFO - Drug Explanation Sparsity: Mean = 0.03641 Std = 0.01417
+2024-04-30 10:24:33 - INFO - Targ Explanation Sparsity: Mean = 0.00083 Std = 0.00000
+2024-04-30 10:24:33 - INFO - COMPLETE!
+
+2024-04-30 10:44:12 - INFO - explain_drug_target.py
+2024-04-30 10:44:12 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-30 10:47:53 - INFO - explain_drug_target.py
+2024-04-30 10:47:54 - INFO - GraphDTA + GIN model loaded successfully!
+2024-04-30 10:49:19 - INFO - Saliency threshold 0.00
+2024-04-30 11:01:15 - INFO - explain_drug_target.py
+2024-04-30 11:01:16 - INFO - GraphDTA + GIN model loaded successfully!
