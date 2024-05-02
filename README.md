@@ -27,10 +27,10 @@ Folder structure of the project directory is given below:
     ├── explainers.py      [explainers ─ GradAAM & GradTAM]
     ├── metrics.py         [metrics used for evaluation]
     ├── model.py           [GraphDTA type models ─ GCN/GIN/GAT]
-    ├── preprocessing.py
-    ├── train.py
+    ├── preprocessing.py   [preprocessing raw data into datasets]
+    ├── train.py           [train models for DTI prediction]
     ├── train.sh
-    └── utils.py
+    └── utils.py           [helper functions]
 ```
 
 ## Computational Requirements
