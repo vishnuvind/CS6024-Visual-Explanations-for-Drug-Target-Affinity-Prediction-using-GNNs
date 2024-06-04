@@ -1,0 +1,562 @@
+2024-05-08 16:13:19 - INFO - train.py
+2024-05-08 16:13:25 - INFO - KIBA Dataset loaded successfully!
+2024-05-08 16:13:25 - INFO - Train Length: 82360
+2024-05-08 16:13:25 - INFO - Test Length: 23531
+2024-05-08 16:13:26 - INFO - GraphDTA + GIN model loaded successfully!
+2024-05-08 16:13:26 - INFO - Training for 500 epochs (777 steps) begins...
+2024-05-08 16:13:54 - INFO - model-gin, dataset-kiba, epoch-1, loss-2.9587, cindex-0.5670, test_loss-0.6132
+2024-05-08 16:13:54 - INFO - Saving model...
+2024-05-08 16:14:22 - INFO - model-gin, dataset-kiba, epoch-2, loss-1.0876, cindex-0.5974, test_loss-0.5713
+2024-05-08 16:14:22 - INFO - Saving model...
+2024-05-08 16:14:51 - INFO - model-gin, dataset-kiba, epoch-3, loss-1.0285, cindex-0.6068, test_loss-0.7022
+2024-05-08 16:15:19 - INFO - model-gin, dataset-kiba, epoch-4, loss-1.0194, cindex-0.6097, test_loss-0.6507
+2024-05-08 16:15:47 - INFO - model-gin, dataset-kiba, epoch-5, loss-1.0514, cindex-0.6044, test_loss-0.8268
+2024-05-08 16:16:16 - INFO - model-gin, dataset-kiba, epoch-6, loss-0.9533, cindex-0.6175, test_loss-0.5500
+2024-05-08 16:16:16 - INFO - Saving model...
+2024-05-08 16:16:45 - INFO - model-gin, dataset-kiba, epoch-7, loss-0.9365, cindex-0.6214, test_loss-0.5163
+2024-05-08 16:16:45 - INFO - Saving model...
+2024-05-08 16:17:14 - INFO - model-gin, dataset-kiba, epoch-8, loss-0.9005, cindex-0.6260, test_loss-0.6701
+2024-05-08 16:17:42 - INFO - model-gin, dataset-kiba, epoch-9, loss-0.8823, cindex-0.6300, test_loss-0.5056
+2024-05-08 16:17:42 - INFO - Saving model...
+2024-05-08 16:18:12 - INFO - model-gin, dataset-kiba, epoch-10, loss-0.8766, cindex-0.6325, test_loss-0.4920
+2024-05-08 16:18:12 - INFO - Saving model...
+2024-05-08 16:18:41 - INFO - model-gin, dataset-kiba, epoch-11, loss-0.8647, cindex-0.6359, test_loss-0.5352
+2024-05-08 16:19:10 - INFO - model-gin, dataset-kiba, epoch-12, loss-0.8424, cindex-0.6381, test_loss-0.4541
+2024-05-08 16:19:10 - INFO - Saving model...
+2024-05-08 16:19:38 - INFO - model-gin, dataset-kiba, epoch-13, loss-0.8447, cindex-0.6387, test_loss-1.1364
+2024-05-08 16:20:06 - INFO - model-gin, dataset-kiba, epoch-14, loss-0.8370, cindex-0.6413, test_loss-0.5191
+2024-05-08 16:20:35 - INFO - model-gin, dataset-kiba, epoch-15, loss-0.8234, cindex-0.6443, test_loss-0.5362
+2024-05-08 16:21:04 - INFO - model-gin, dataset-kiba, epoch-16, loss-0.8148, cindex-0.6447, test_loss-0.4896
+2024-05-08 16:21:33 - INFO - model-gin, dataset-kiba, epoch-17, loss-0.8156, cindex-0.6470, test_loss-0.4913
+2024-05-08 16:22:02 - INFO - model-gin, dataset-kiba, epoch-18, loss-0.7957, cindex-0.6482, test_loss-0.4234
+2024-05-08 16:22:02 - INFO - Saving model...
+2024-05-08 16:22:31 - INFO - model-gin, dataset-kiba, epoch-19, loss-0.8125, cindex-0.6516, test_loss-0.6599
+2024-05-08 16:23:02 - INFO - model-gin, dataset-kiba, epoch-20, loss-0.7918, cindex-0.6516, test_loss-0.4662
+2024-05-08 16:23:31 - INFO - model-gin, dataset-kiba, epoch-21, loss-0.7815, cindex-0.6543, test_loss-0.4889
+2024-05-08 16:24:02 - INFO - model-gin, dataset-kiba, epoch-22, loss-0.7716, cindex-0.6549, test_loss-0.6761
+2024-05-08 16:24:32 - INFO - model-gin, dataset-kiba, epoch-23, loss-0.7640, cindex-0.6571, test_loss-0.4421
+2024-05-08 16:25:03 - INFO - model-gin, dataset-kiba, epoch-24, loss-0.7604, cindex-0.6585, test_loss-0.4211
+2024-05-08 16:25:03 - INFO - Saving model...
+2024-05-08 16:25:32 - INFO - model-gin, dataset-kiba, epoch-25, loss-0.7515, cindex-0.6580, test_loss-0.3968
+2024-05-08 16:25:32 - INFO - Saving model...
+2024-05-08 16:26:03 - INFO - model-gin, dataset-kiba, epoch-26, loss-0.7572, cindex-0.6611, test_loss-0.6229
+2024-05-08 21:56:35 - INFO - model-gin, dataset-kiba, epoch-27, loss-0.7382, cindex-0.6610, test_loss-0.5587
+2024-05-08 21:57:06 - INFO - model-gin, dataset-kiba, epoch-28, loss-0.7372, cindex-0.6632, test_loss-0.4546
+2024-05-08 21:57:37 - INFO - model-gin, dataset-kiba, epoch-29, loss-0.7384, cindex-0.6655, test_loss-0.7085
+2024-05-08 21:58:07 - INFO - model-gin, dataset-kiba, epoch-30, loss-0.7560, cindex-0.6635, test_loss-0.4040
+2024-05-08 21:58:38 - INFO - model-gin, dataset-kiba, epoch-31, loss-0.7055, cindex-0.6687, test_loss-0.3821
+2024-05-08 21:58:38 - INFO - Saving model...
+2024-05-08 21:59:08 - INFO - model-gin, dataset-kiba, epoch-32, loss-0.7026, cindex-0.6693, test_loss-0.4982
+2024-05-08 21:59:39 - INFO - model-gin, dataset-kiba, epoch-33, loss-0.7246, cindex-0.6704, test_loss-0.4725
+2024-05-08 22:00:09 - INFO - model-gin, dataset-kiba, epoch-34, loss-0.6944, cindex-0.6718, test_loss-0.4601
+2024-05-08 22:00:41 - INFO - model-gin, dataset-kiba, epoch-35, loss-0.7010, cindex-0.6720, test_loss-0.4592
+2024-05-08 22:01:11 - INFO - model-gin, dataset-kiba, epoch-36, loss-0.6974, cindex-0.6728, test_loss-0.4182
+2024-05-08 22:01:42 - INFO - model-gin, dataset-kiba, epoch-37, loss-0.6735, cindex-0.6749, test_loss-0.3684
+2024-05-08 22:01:42 - INFO - Saving model...
+2024-05-08 22:02:13 - INFO - model-gin, dataset-kiba, epoch-38, loss-0.7002, cindex-0.6749, test_loss-0.4479
+2024-05-08 22:02:43 - INFO - model-gin, dataset-kiba, epoch-39, loss-0.6840, cindex-0.6769, test_loss-0.3988
+2024-05-08 22:03:14 - INFO - model-gin, dataset-kiba, epoch-40, loss-0.6746, cindex-0.6768, test_loss-0.4546
+2024-05-08 22:03:45 - INFO - model-gin, dataset-kiba, epoch-41, loss-0.6581, cindex-0.6778, test_loss-0.3473
+2024-05-08 22:03:45 - INFO - Saving model...
+2024-05-08 22:04:16 - INFO - model-gin, dataset-kiba, epoch-42, loss-0.6639, cindex-0.6808, test_loss-0.3429
+2024-05-08 22:04:16 - INFO - Saving model...
+2024-05-08 22:04:46 - INFO - model-gin, dataset-kiba, epoch-43, loss-0.6659, cindex-0.6797, test_loss-0.3772
+2024-05-08 22:05:17 - INFO - model-gin, dataset-kiba, epoch-44, loss-0.6538, cindex-0.6827, test_loss-0.3575
+2024-05-08 22:05:46 - INFO - model-gin, dataset-kiba, epoch-45, loss-0.6510, cindex-0.6821, test_loss-0.3594
+2024-05-08 22:06:16 - INFO - model-gin, dataset-kiba, epoch-46, loss-0.6415, cindex-0.6840, test_loss-0.4047
+2024-05-08 22:06:44 - INFO - model-gin, dataset-kiba, epoch-47, loss-0.6572, cindex-0.6841, test_loss-0.3375
+2024-05-08 22:06:44 - INFO - Saving model...
+2024-05-08 22:07:13 - INFO - model-gin, dataset-kiba, epoch-48, loss-0.6296, cindex-0.6850, test_loss-0.3641
+2024-05-08 22:07:43 - INFO - model-gin, dataset-kiba, epoch-49, loss-0.6418, cindex-0.6820, test_loss-0.3749
+2024-05-08 22:08:12 - INFO - model-gin, dataset-kiba, epoch-50, loss-0.6409, cindex-0.6843, test_loss-0.3709
+2024-05-08 22:08:41 - INFO - model-gin, dataset-kiba, epoch-51, loss-0.6364, cindex-0.6860, test_loss-0.3378
+2024-05-08 22:09:10 - INFO - model-gin, dataset-kiba, epoch-52, loss-0.6325, cindex-0.6865, test_loss-0.3346
+2024-05-08 22:09:10 - INFO - Saving model...
+2024-05-08 22:09:40 - INFO - model-gin, dataset-kiba, epoch-53, loss-0.6380, cindex-0.6879, test_loss-0.4383
+2024-05-08 22:10:09 - INFO - model-gin, dataset-kiba, epoch-54, loss-0.6321, cindex-0.6880, test_loss-0.3901
+2024-05-08 22:10:38 - INFO - model-gin, dataset-kiba, epoch-55, loss-0.6134, cindex-0.6910, test_loss-0.3727
+2024-05-08 22:11:07 - INFO - model-gin, dataset-kiba, epoch-56, loss-0.6134, cindex-0.6922, test_loss-0.3706
+2024-05-08 22:11:37 - INFO - model-gin, dataset-kiba, epoch-57, loss-0.6117, cindex-0.6918, test_loss-0.3914
+2024-05-08 22:12:07 - INFO - model-gin, dataset-kiba, epoch-58, loss-0.6167, cindex-0.6919, test_loss-0.3559
+2024-05-08 22:12:36 - INFO - model-gin, dataset-kiba, epoch-59, loss-0.5952, cindex-0.6921, test_loss-0.3111
+2024-05-08 22:12:36 - INFO - Saving model...
+2024-05-08 22:13:05 - INFO - model-gin, dataset-kiba, epoch-60, loss-0.5964, cindex-0.6942, test_loss-0.3199
+2024-05-08 22:13:35 - INFO - model-gin, dataset-kiba, epoch-61, loss-0.6013, cindex-0.6925, test_loss-0.2951
+2024-05-08 22:13:35 - INFO - Saving model...
+2024-05-08 22:14:05 - INFO - model-gin, dataset-kiba, epoch-62, loss-0.5961, cindex-0.6956, test_loss-0.4404
+2024-05-08 22:14:33 - INFO - model-gin, dataset-kiba, epoch-63, loss-0.5953, cindex-0.6964, test_loss-0.3257
+2024-05-08 22:15:03 - INFO - model-gin, dataset-kiba, epoch-64, loss-0.5854, cindex-0.6950, test_loss-0.3089
+2024-05-08 22:15:31 - INFO - model-gin, dataset-kiba, epoch-65, loss-0.6085, cindex-0.6962, test_loss-0.3179
+2024-05-08 22:16:00 - INFO - model-gin, dataset-kiba, epoch-66, loss-0.5884, cindex-0.6970, test_loss-0.3875
+2024-05-08 22:16:30 - INFO - model-gin, dataset-kiba, epoch-67, loss-0.5731, cindex-0.6987, test_loss-0.3218
+2024-05-08 22:16:59 - INFO - model-gin, dataset-kiba, epoch-68, loss-0.5810, cindex-0.6988, test_loss-0.2846
+2024-05-08 22:16:59 - INFO - Saving model...
+2024-05-08 22:17:28 - INFO - model-gin, dataset-kiba, epoch-69, loss-0.5764, cindex-0.6999, test_loss-0.3496
+2024-05-08 22:17:57 - INFO - model-gin, dataset-kiba, epoch-70, loss-0.5733, cindex-0.7015, test_loss-0.3208
+2024-05-08 22:18:27 - INFO - model-gin, dataset-kiba, epoch-71, loss-0.5618, cindex-0.7019, test_loss-0.3048
+2024-05-08 22:18:56 - INFO - model-gin, dataset-kiba, epoch-72, loss-0.5684, cindex-0.7021, test_loss-0.3639
+2024-05-08 22:19:26 - INFO - model-gin, dataset-kiba, epoch-73, loss-0.5690, cindex-0.7012, test_loss-0.2817
+2024-05-08 22:19:26 - INFO - Saving model...
+2024-05-08 22:19:55 - INFO - model-gin, dataset-kiba, epoch-74, loss-0.5724, cindex-0.7018, test_loss-0.3298
+2024-05-08 22:20:24 - INFO - model-gin, dataset-kiba, epoch-75, loss-0.5580, cindex-0.7045, test_loss-0.3154
+2024-05-08 22:20:55 - INFO - model-gin, dataset-kiba, epoch-76, loss-0.5463, cindex-0.7039, test_loss-0.2741
+2024-05-08 22:20:55 - INFO - Saving model...
+2024-05-08 22:21:24 - INFO - model-gin, dataset-kiba, epoch-77, loss-0.5476, cindex-0.7058, test_loss-0.2816
+2024-05-08 22:21:53 - INFO - model-gin, dataset-kiba, epoch-78, loss-0.5487, cindex-0.7064, test_loss-0.3093
+2024-05-08 22:22:23 - INFO - model-gin, dataset-kiba, epoch-79, loss-0.5535, cindex-0.7057, test_loss-0.3223
+2024-05-08 22:22:52 - INFO - model-gin, dataset-kiba, epoch-80, loss-0.5516, cindex-0.7067, test_loss-0.2852
+2024-05-08 22:23:21 - INFO - model-gin, dataset-kiba, epoch-81, loss-0.5484, cindex-0.7071, test_loss-0.2955
+2024-05-08 22:23:50 - INFO - model-gin, dataset-kiba, epoch-82, loss-0.5357, cindex-0.7062, test_loss-0.3344
+2024-05-08 22:24:19 - INFO - model-gin, dataset-kiba, epoch-83, loss-0.5337, cindex-0.7088, test_loss-0.2987
+2024-05-08 22:24:48 - INFO - model-gin, dataset-kiba, epoch-84, loss-0.5373, cindex-0.7087, test_loss-0.2992
+2024-05-08 22:25:17 - INFO - model-gin, dataset-kiba, epoch-85, loss-0.5339, cindex-0.7083, test_loss-0.3331
+2024-05-08 22:25:47 - INFO - model-gin, dataset-kiba, epoch-86, loss-0.5294, cindex-0.7111, test_loss-0.2647
+2024-05-08 22:25:47 - INFO - Saving model...
+2024-05-08 22:26:16 - INFO - model-gin, dataset-kiba, epoch-87, loss-0.5246, cindex-0.7114, test_loss-0.3199
+2024-05-08 22:26:45 - INFO - model-gin, dataset-kiba, epoch-88, loss-0.5330, cindex-0.7101, test_loss-0.2867
+2024-05-08 22:27:14 - INFO - model-gin, dataset-kiba, epoch-89, loss-0.5344, cindex-0.7102, test_loss-0.2945
+2024-05-08 22:27:44 - INFO - model-gin, dataset-kiba, epoch-90, loss-0.5230, cindex-0.7120, test_loss-0.3808
+2024-05-08 22:28:13 - INFO - model-gin, dataset-kiba, epoch-91, loss-0.5177, cindex-0.7120, test_loss-0.2763
+2024-05-08 22:28:42 - INFO - model-gin, dataset-kiba, epoch-92, loss-0.5094, cindex-0.7130, test_loss-0.2882
+2024-05-08 22:29:12 - INFO - model-gin, dataset-kiba, epoch-93, loss-0.5178, cindex-0.7135, test_loss-0.2983
+2024-05-08 22:29:41 - INFO - model-gin, dataset-kiba, epoch-94, loss-0.5142, cindex-0.7147, test_loss-0.4304
+2024-05-08 22:30:10 - INFO - model-gin, dataset-kiba, epoch-95, loss-0.5074, cindex-0.7145, test_loss-0.2675
+2024-05-08 22:30:40 - INFO - model-gin, dataset-kiba, epoch-96, loss-0.5067, cindex-0.7147, test_loss-0.3130
+2024-05-08 22:31:09 - INFO - model-gin, dataset-kiba, epoch-97, loss-0.5009, cindex-0.7161, test_loss-0.2560
+2024-05-08 22:31:09 - INFO - Saving model...
+2024-05-08 22:31:38 - INFO - model-gin, dataset-kiba, epoch-98, loss-0.5078, cindex-0.7163, test_loss-0.2812
+2024-05-08 22:32:07 - INFO - model-gin, dataset-kiba, epoch-99, loss-0.5043, cindex-0.7162, test_loss-0.3066
+2024-05-08 22:32:36 - INFO - model-gin, dataset-kiba, epoch-100, loss-0.4997, cindex-0.7181, test_loss-0.2733
+2024-05-08 22:33:05 - INFO - model-gin, dataset-kiba, epoch-101, loss-0.4959, cindex-0.7167, test_loss-0.3201
+2024-05-08 22:33:34 - INFO - model-gin, dataset-kiba, epoch-102, loss-0.4913, cindex-0.7192, test_loss-0.2755
+2024-05-08 22:34:03 - INFO - model-gin, dataset-kiba, epoch-103, loss-0.4909, cindex-0.7193, test_loss-0.3458
+2024-05-08 22:34:33 - INFO - model-gin, dataset-kiba, epoch-104, loss-0.4932, cindex-0.7194, test_loss-0.3431
+2024-05-08 22:35:02 - INFO - model-gin, dataset-kiba, epoch-105, loss-0.4825, cindex-0.7198, test_loss-0.2623
+2024-05-08 22:35:31 - INFO - model-gin, dataset-kiba, epoch-106, loss-0.4868, cindex-0.7213, test_loss-0.2677
+2024-05-08 22:36:00 - INFO - model-gin, dataset-kiba, epoch-107, loss-0.4928, cindex-0.7198, test_loss-0.2634
+2024-05-08 22:36:30 - INFO - model-gin, dataset-kiba, epoch-108, loss-0.4852, cindex-0.7210, test_loss-0.2726
+2024-05-08 22:36:59 - INFO - model-gin, dataset-kiba, epoch-109, loss-0.4772, cindex-0.7223, test_loss-0.2558
+2024-05-08 22:36:59 - INFO - Saving model...
+2024-05-08 22:37:28 - INFO - model-gin, dataset-kiba, epoch-110, loss-0.4794, cindex-0.7219, test_loss-0.2583
+2024-05-08 22:37:57 - INFO - model-gin, dataset-kiba, epoch-111, loss-0.4795, cindex-0.7218, test_loss-0.2745
+2024-05-08 22:38:26 - INFO - model-gin, dataset-kiba, epoch-112, loss-0.4713, cindex-0.7253, test_loss-0.2758
+2024-05-08 22:38:56 - INFO - model-gin, dataset-kiba, epoch-113, loss-0.4742, cindex-0.7235, test_loss-0.3054
+2024-05-08 22:39:25 - INFO - model-gin, dataset-kiba, epoch-114, loss-0.4687, cindex-0.7257, test_loss-0.2764
+2024-05-08 22:39:54 - INFO - model-gin, dataset-kiba, epoch-115, loss-0.4623, cindex-0.7256, test_loss-0.2736
+2024-05-08 22:40:24 - INFO - model-gin, dataset-kiba, epoch-116, loss-0.4643, cindex-0.7252, test_loss-0.2555
+2024-05-08 22:40:24 - INFO - Saving model...
+2024-05-08 22:40:53 - INFO - model-gin, dataset-kiba, epoch-117, loss-0.4587, cindex-0.7261, test_loss-0.2564
+2024-05-08 22:41:22 - INFO - model-gin, dataset-kiba, epoch-118, loss-0.4589, cindex-0.7265, test_loss-0.2686
+2024-05-08 22:41:51 - INFO - model-gin, dataset-kiba, epoch-119, loss-0.4626, cindex-0.7270, test_loss-0.3732
+2024-05-08 22:42:21 - INFO - model-gin, dataset-kiba, epoch-120, loss-0.4610, cindex-0.7267, test_loss-0.2736
+2024-05-08 22:42:50 - INFO - model-gin, dataset-kiba, epoch-121, loss-0.4549, cindex-0.7285, test_loss-0.2667
+2024-05-08 22:43:19 - INFO - model-gin, dataset-kiba, epoch-122, loss-0.4503, cindex-0.7276, test_loss-0.2410
+2024-05-08 22:43:19 - INFO - Saving model...
+2024-05-08 22:43:48 - INFO - model-gin, dataset-kiba, epoch-123, loss-0.4469, cindex-0.7298, test_loss-0.2489
+2024-05-08 22:44:17 - INFO - model-gin, dataset-kiba, epoch-124, loss-0.4531, cindex-0.7306, test_loss-0.3259
+2024-05-08 22:44:47 - INFO - model-gin, dataset-kiba, epoch-125, loss-0.4438, cindex-0.7311, test_loss-0.2428
+2024-05-08 22:45:16 - INFO - model-gin, dataset-kiba, epoch-126, loss-0.4363, cindex-0.7323, test_loss-0.2492
+2024-05-08 22:45:45 - INFO - model-gin, dataset-kiba, epoch-127, loss-0.4441, cindex-0.7315, test_loss-0.2581
+2024-05-08 22:46:14 - INFO - model-gin, dataset-kiba, epoch-128, loss-0.4327, cindex-0.7328, test_loss-0.2756
+2024-05-08 22:46:43 - INFO - model-gin, dataset-kiba, epoch-129, loss-0.4364, cindex-0.7326, test_loss-0.3063
+2024-05-08 22:47:12 - INFO - model-gin, dataset-kiba, epoch-130, loss-0.4473, cindex-0.7329, test_loss-0.2674
+2024-05-08 22:47:41 - INFO - model-gin, dataset-kiba, epoch-131, loss-0.4333, cindex-0.7337, test_loss-0.2419
+2024-05-08 22:48:11 - INFO - model-gin, dataset-kiba, epoch-132, loss-0.4325, cindex-0.7333, test_loss-0.2414
+2024-05-08 22:48:41 - INFO - model-gin, dataset-kiba, epoch-133, loss-0.4334, cindex-0.7350, test_loss-0.2381
+2024-05-08 22:48:41 - INFO - Saving model...
+2024-05-08 22:49:10 - INFO - model-gin, dataset-kiba, epoch-134, loss-0.4270, cindex-0.7349, test_loss-0.2490
+2024-05-08 22:49:39 - INFO - model-gin, dataset-kiba, epoch-135, loss-0.4216, cindex-0.7358, test_loss-0.2440
+2024-05-08 22:50:08 - INFO - model-gin, dataset-kiba, epoch-136, loss-0.4239, cindex-0.7360, test_loss-0.2465
+2024-05-08 22:50:37 - INFO - model-gin, dataset-kiba, epoch-137, loss-0.4257, cindex-0.7363, test_loss-0.3216
+2024-05-08 22:51:05 - INFO - model-gin, dataset-kiba, epoch-138, loss-0.4224, cindex-0.7375, test_loss-0.2331
+2024-05-08 22:51:05 - INFO - Saving model...
+2024-05-08 22:51:34 - INFO - model-gin, dataset-kiba, epoch-139, loss-0.4185, cindex-0.7380, test_loss-0.2422
+2024-05-08 22:52:02 - INFO - model-gin, dataset-kiba, epoch-140, loss-0.4144, cindex-0.7393, test_loss-0.2402
+2024-05-08 22:52:30 - INFO - model-gin, dataset-kiba, epoch-141, loss-0.4127, cindex-0.7399, test_loss-0.3269
+2024-05-08 22:53:00 - INFO - model-gin, dataset-kiba, epoch-142, loss-0.4157, cindex-0.7394, test_loss-0.2674
+2024-05-08 22:53:28 - INFO - model-gin, dataset-kiba, epoch-143, loss-0.4120, cindex-0.7396, test_loss-0.2324
+2024-05-08 22:53:28 - INFO - Saving model...
+2024-05-08 22:53:57 - INFO - model-gin, dataset-kiba, epoch-144, loss-0.4082, cindex-0.7413, test_loss-0.2326
+2024-05-08 22:54:25 - INFO - model-gin, dataset-kiba, epoch-145, loss-0.4120, cindex-0.7410, test_loss-0.2319
+2024-05-08 22:54:25 - INFO - Saving model...
+2024-05-08 22:54:53 - INFO - model-gin, dataset-kiba, epoch-146, loss-0.4037, cindex-0.7417, test_loss-0.2373
+2024-05-08 22:55:22 - INFO - model-gin, dataset-kiba, epoch-147, loss-0.4014, cindex-0.7410, test_loss-0.2480
+2024-05-08 22:55:50 - INFO - model-gin, dataset-kiba, epoch-148, loss-0.4008, cindex-0.7436, test_loss-0.2495
+2024-05-08 22:56:19 - INFO - model-gin, dataset-kiba, epoch-149, loss-0.3981, cindex-0.7435, test_loss-0.2401
+2024-05-08 22:56:47 - INFO - model-gin, dataset-kiba, epoch-150, loss-0.4020, cindex-0.7429, test_loss-0.2569
+2024-05-08 22:57:16 - INFO - model-gin, dataset-kiba, epoch-151, loss-0.3949, cindex-0.7444, test_loss-0.2411
+2024-05-08 22:57:45 - INFO - model-gin, dataset-kiba, epoch-152, loss-0.3910, cindex-0.7443, test_loss-0.2462
+2024-05-08 22:58:12 - INFO - model-gin, dataset-kiba, epoch-153, loss-0.3903, cindex-0.7451, test_loss-0.3127
+2024-05-08 22:58:41 - INFO - model-gin, dataset-kiba, epoch-154, loss-0.4057, cindex-0.7444, test_loss-0.2710
+2024-05-08 22:59:08 - INFO - model-gin, dataset-kiba, epoch-155, loss-0.3882, cindex-0.7458, test_loss-0.2666
+2024-05-08 22:59:36 - INFO - model-gin, dataset-kiba, epoch-156, loss-0.3885, cindex-0.7466, test_loss-0.2386
+2024-05-08 23:00:04 - INFO - model-gin, dataset-kiba, epoch-157, loss-0.3873, cindex-0.7477, test_loss-0.2451
+2024-05-08 23:00:33 - INFO - model-gin, dataset-kiba, epoch-158, loss-0.3810, cindex-0.7472, test_loss-0.2403
+2024-05-08 23:01:01 - INFO - model-gin, dataset-kiba, epoch-159, loss-0.3842, cindex-0.7478, test_loss-0.2520
+2024-05-08 23:01:29 - INFO - model-gin, dataset-kiba, epoch-160, loss-0.3848, cindex-0.7461, test_loss-0.2343
+2024-05-08 23:01:57 - INFO - model-gin, dataset-kiba, epoch-161, loss-0.3786, cindex-0.7502, test_loss-0.2217
+2024-05-08 23:01:57 - INFO - Saving model...
+2024-05-08 23:02:26 - INFO - model-gin, dataset-kiba, epoch-162, loss-0.3752, cindex-0.7508, test_loss-0.2330
+2024-05-08 23:02:54 - INFO - model-gin, dataset-kiba, epoch-163, loss-0.3715, cindex-0.7499, test_loss-0.2275
+2024-05-08 23:03:23 - INFO - model-gin, dataset-kiba, epoch-164, loss-0.3663, cindex-0.7527, test_loss-0.2402
+2024-05-08 23:03:51 - INFO - model-gin, dataset-kiba, epoch-165, loss-0.3663, cindex-0.7531, test_loss-0.2410
+2024-05-08 23:04:19 - INFO - model-gin, dataset-kiba, epoch-166, loss-0.3714, cindex-0.7514, test_loss-0.2308
+2024-05-08 23:04:48 - INFO - model-gin, dataset-kiba, epoch-167, loss-0.3699, cindex-0.7518, test_loss-0.2532
+2024-05-08 23:05:17 - INFO - model-gin, dataset-kiba, epoch-168, loss-0.3640, cindex-0.7532, test_loss-0.2250
+2024-05-08 23:05:45 - INFO - model-gin, dataset-kiba, epoch-169, loss-0.3596, cindex-0.7535, test_loss-0.2252
+2024-05-08 23:06:14 - INFO - model-gin, dataset-kiba, epoch-170, loss-0.3651, cindex-0.7542, test_loss-0.2413
+2024-05-08 23:06:43 - INFO - model-gin, dataset-kiba, epoch-171, loss-0.3547, cindex-0.7559, test_loss-0.3100
+2024-05-08 23:07:12 - INFO - model-gin, dataset-kiba, epoch-172, loss-0.3605, cindex-0.7565, test_loss-0.2317
+2024-05-08 23:07:40 - INFO - model-gin, dataset-kiba, epoch-173, loss-0.3520, cindex-0.7554, test_loss-0.2306
+2024-05-08 23:08:10 - INFO - model-gin, dataset-kiba, epoch-174, loss-0.3522, cindex-0.7582, test_loss-0.2444
+2024-05-08 23:08:38 - INFO - model-gin, dataset-kiba, epoch-175, loss-0.3568, cindex-0.7550, test_loss-0.2335
+2024-05-08 23:09:07 - INFO - model-gin, dataset-kiba, epoch-176, loss-0.3469, cindex-0.7579, test_loss-0.2266
+2024-05-08 23:09:35 - INFO - model-gin, dataset-kiba, epoch-177, loss-0.3509, cindex-0.7584, test_loss-0.2221
+2024-05-08 23:10:04 - INFO - model-gin, dataset-kiba, epoch-178, loss-0.3513, cindex-0.7593, test_loss-0.2274
+2024-05-08 23:10:32 - INFO - model-gin, dataset-kiba, epoch-179, loss-0.3410, cindex-0.7609, test_loss-0.2484
+2024-05-08 23:11:01 - INFO - model-gin, dataset-kiba, epoch-180, loss-0.3381, cindex-0.7611, test_loss-0.2434
+2024-05-08 23:11:31 - INFO - model-gin, dataset-kiba, epoch-181, loss-0.3391, cindex-0.7628, test_loss-0.2333
+2024-05-08 23:11:59 - INFO - model-gin, dataset-kiba, epoch-182, loss-0.3355, cindex-0.7621, test_loss-0.2221
+2024-05-08 23:12:28 - INFO - model-gin, dataset-kiba, epoch-183, loss-0.3359, cindex-0.7620, test_loss-0.2309
+2024-05-08 23:12:56 - INFO - model-gin, dataset-kiba, epoch-184, loss-0.3294, cindex-0.7632, test_loss-0.2991
+2024-05-08 23:13:25 - INFO - model-gin, dataset-kiba, epoch-185, loss-0.3320, cindex-0.7640, test_loss-0.2332
+2024-05-08 23:13:53 - INFO - model-gin, dataset-kiba, epoch-186, loss-0.3326, cindex-0.7626, test_loss-0.3222
+2024-05-08 23:14:23 - INFO - model-gin, dataset-kiba, epoch-187, loss-0.3347, cindex-0.7637, test_loss-0.2263
+2024-05-08 23:14:52 - INFO - model-gin, dataset-kiba, epoch-188, loss-0.3287, cindex-0.7645, test_loss-0.2492
+2024-05-08 23:15:20 - INFO - model-gin, dataset-kiba, epoch-189, loss-0.3245, cindex-0.7674, test_loss-0.2228
+2024-05-08 23:15:49 - INFO - model-gin, dataset-kiba, epoch-190, loss-0.3206, cindex-0.7669, test_loss-0.2241
+2024-05-08 23:16:17 - INFO - model-gin, dataset-kiba, epoch-191, loss-0.3224, cindex-0.7677, test_loss-0.2286
+2024-05-08 23:16:46 - INFO - model-gin, dataset-kiba, epoch-192, loss-0.3193, cindex-0.7678, test_loss-0.2349
+2024-05-08 23:17:14 - INFO - model-gin, dataset-kiba, epoch-193, loss-0.3143, cindex-0.7689, test_loss-0.2222
+2024-05-08 23:17:43 - INFO - model-gin, dataset-kiba, epoch-194, loss-0.3154, cindex-0.7691, test_loss-0.2590
+2024-05-08 23:18:11 - INFO - model-gin, dataset-kiba, epoch-195, loss-0.3109, cindex-0.7704, test_loss-0.2333
+2024-05-08 23:18:41 - INFO - model-gin, dataset-kiba, epoch-196, loss-0.3087, cindex-0.7711, test_loss-0.2116
+2024-05-08 23:18:41 - INFO - Saving model...
+2024-05-08 23:19:09 - INFO - model-gin, dataset-kiba, epoch-197, loss-0.3013, cindex-0.7731, test_loss-0.2120
+2024-05-08 23:19:38 - INFO - model-gin, dataset-kiba, epoch-198, loss-0.3054, cindex-0.7724, test_loss-0.2520
+2024-05-08 23:20:07 - INFO - model-gin, dataset-kiba, epoch-199, loss-0.3055, cindex-0.7730, test_loss-0.2058
+2024-05-08 23:20:07 - INFO - Saving model...
+2024-05-08 23:20:36 - INFO - model-gin, dataset-kiba, epoch-200, loss-0.3082, cindex-0.7725, test_loss-0.2610
+2024-05-08 23:21:05 - INFO - model-gin, dataset-kiba, epoch-201, loss-0.2970, cindex-0.7749, test_loss-0.2231
+2024-05-08 23:21:34 - INFO - model-gin, dataset-kiba, epoch-202, loss-0.2927, cindex-0.7760, test_loss-0.2126
+2024-05-08 23:22:03 - INFO - model-gin, dataset-kiba, epoch-203, loss-0.2932, cindex-0.7754, test_loss-0.2297
+2024-05-08 23:22:32 - INFO - model-gin, dataset-kiba, epoch-204, loss-0.2922, cindex-0.7765, test_loss-0.2340
+2024-05-08 23:23:01 - INFO - model-gin, dataset-kiba, epoch-205, loss-0.2882, cindex-0.7783, test_loss-0.2074
+2024-05-08 23:23:30 - INFO - model-gin, dataset-kiba, epoch-206, loss-0.2884, cindex-0.7792, test_loss-0.2264
+2024-05-08 23:23:59 - INFO - model-gin, dataset-kiba, epoch-207, loss-0.2845, cindex-0.7789, test_loss-0.2246
+2024-05-08 23:24:28 - INFO - model-gin, dataset-kiba, epoch-208, loss-0.2846, cindex-0.7790, test_loss-0.2261
+2024-05-08 23:24:57 - INFO - model-gin, dataset-kiba, epoch-209, loss-0.2835, cindex-0.7806, test_loss-0.2208
+2024-05-08 23:25:26 - INFO - model-gin, dataset-kiba, epoch-210, loss-0.2781, cindex-0.7807, test_loss-0.2085
+2024-05-08 23:25:56 - INFO - model-gin, dataset-kiba, epoch-211, loss-0.2776, cindex-0.7836, test_loss-0.2291
+2024-05-08 23:26:25 - INFO - model-gin, dataset-kiba, epoch-212, loss-0.2738, cindex-0.7838, test_loss-0.2149
+2024-05-08 23:26:54 - INFO - model-gin, dataset-kiba, epoch-213, loss-0.2715, cindex-0.7858, test_loss-0.2144
+2024-05-08 23:27:24 - INFO - model-gin, dataset-kiba, epoch-214, loss-0.2693, cindex-0.7860, test_loss-0.2164
+2024-05-08 23:27:53 - INFO - model-gin, dataset-kiba, epoch-215, loss-0.2674, cindex-0.7877, test_loss-0.2209
+2024-05-08 23:28:23 - INFO - model-gin, dataset-kiba, epoch-216, loss-0.2643, cindex-0.7873, test_loss-0.2153
+2024-05-08 23:28:52 - INFO - model-gin, dataset-kiba, epoch-217, loss-0.2612, cindex-0.7885, test_loss-0.2129
+2024-05-08 23:29:22 - INFO - model-gin, dataset-kiba, epoch-218, loss-0.2620, cindex-0.7885, test_loss-0.2046
+2024-05-08 23:29:22 - INFO - Saving model...
+2024-05-08 23:29:52 - INFO - model-gin, dataset-kiba, epoch-219, loss-0.2605, cindex-0.7907, test_loss-0.2108
+2024-05-08 23:30:21 - INFO - model-gin, dataset-kiba, epoch-220, loss-0.2575, cindex-0.7909, test_loss-0.2113
+2024-05-08 23:30:51 - INFO - model-gin, dataset-kiba, epoch-221, loss-0.2578, cindex-0.7908, test_loss-0.2203
+2024-05-08 23:31:20 - INFO - model-gin, dataset-kiba, epoch-222, loss-0.2545, cindex-0.7923, test_loss-0.2066
+2024-05-08 23:31:50 - INFO - model-gin, dataset-kiba, epoch-223, loss-0.2528, cindex-0.7930, test_loss-0.2280
+2024-05-08 23:32:20 - INFO - model-gin, dataset-kiba, epoch-224, loss-0.2509, cindex-0.7933, test_loss-0.2235
+2024-05-08 23:32:50 - INFO - model-gin, dataset-kiba, epoch-225, loss-0.2532, cindex-0.7925, test_loss-0.2961
+2024-05-08 23:33:18 - INFO - model-gin, dataset-kiba, epoch-226, loss-0.2548, cindex-0.7934, test_loss-0.2160
+2024-05-08 23:33:48 - INFO - model-gin, dataset-kiba, epoch-227, loss-0.2438, cindex-0.7961, test_loss-0.2056
+2024-05-08 23:34:17 - INFO - model-gin, dataset-kiba, epoch-228, loss-0.2430, cindex-0.7980, test_loss-0.2020
+2024-05-08 23:34:17 - INFO - Saving model...
+2024-05-08 23:34:46 - INFO - model-gin, dataset-kiba, epoch-229, loss-0.2401, cindex-0.7991, test_loss-0.2088
+2024-05-08 23:35:16 - INFO - model-gin, dataset-kiba, epoch-230, loss-0.2406, cindex-0.7994, test_loss-0.2039
+2024-05-08 23:35:45 - INFO - model-gin, dataset-kiba, epoch-231, loss-0.2356, cindex-0.8004, test_loss-0.2051
+2024-05-08 23:36:15 - INFO - model-gin, dataset-kiba, epoch-232, loss-0.2363, cindex-0.8003, test_loss-0.1937
+2024-05-08 23:36:15 - INFO - Saving model...
+2024-05-08 23:36:44 - INFO - model-gin, dataset-kiba, epoch-233, loss-0.2323, cindex-0.8023, test_loss-0.2018
+2024-05-08 23:37:14 - INFO - model-gin, dataset-kiba, epoch-234, loss-0.2300, cindex-0.8041, test_loss-0.2004
+2024-05-08 23:37:43 - INFO - model-gin, dataset-kiba, epoch-235, loss-0.2288, cindex-0.8032, test_loss-0.1983
+2024-05-08 23:38:13 - INFO - model-gin, dataset-kiba, epoch-236, loss-0.2285, cindex-0.8034, test_loss-0.2046
+2024-05-08 23:38:43 - INFO - model-gin, dataset-kiba, epoch-237, loss-0.2264, cindex-0.8050, test_loss-0.2125
+2024-05-08 23:39:12 - INFO - model-gin, dataset-kiba, epoch-238, loss-0.2246, cindex-0.8060, test_loss-0.1982
+2024-05-08 23:39:42 - INFO - model-gin, dataset-kiba, epoch-239, loss-0.2250, cindex-0.8058, test_loss-0.1942
+2024-05-08 23:40:11 - INFO - model-gin, dataset-kiba, epoch-240, loss-0.2179, cindex-0.8082, test_loss-0.1948
+2024-05-08 23:40:41 - INFO - model-gin, dataset-kiba, epoch-241, loss-0.2180, cindex-0.8086, test_loss-0.1993
+2024-05-08 23:41:10 - INFO - model-gin, dataset-kiba, epoch-242, loss-0.2219, cindex-0.8073, test_loss-0.1951
+2024-05-08 23:41:40 - INFO - model-gin, dataset-kiba, epoch-243, loss-0.2158, cindex-0.8098, test_loss-0.2226
+2024-05-08 23:42:09 - INFO - model-gin, dataset-kiba, epoch-244, loss-0.2143, cindex-0.8106, test_loss-0.1994
+2024-05-08 23:42:38 - INFO - model-gin, dataset-kiba, epoch-245, loss-0.2120, cindex-0.8113, test_loss-0.2033
+2024-05-08 23:43:08 - INFO - model-gin, dataset-kiba, epoch-246, loss-0.2159, cindex-0.8102, test_loss-0.1968
+2024-05-08 23:43:37 - INFO - model-gin, dataset-kiba, epoch-247, loss-0.2095, cindex-0.8129, test_loss-0.1954
+2024-05-08 23:44:06 - INFO - model-gin, dataset-kiba, epoch-248, loss-0.2094, cindex-0.8132, test_loss-0.1975
+2024-05-08 23:44:35 - INFO - model-gin, dataset-kiba, epoch-249, loss-0.2080, cindex-0.8134, test_loss-0.1983
+2024-05-08 23:45:06 - INFO - model-gin, dataset-kiba, epoch-250, loss-0.2063, cindex-0.8147, test_loss-0.2006
+2024-05-08 23:45:35 - INFO - model-gin, dataset-kiba, epoch-251, loss-0.2040, cindex-0.8150, test_loss-0.2024
+2024-05-08 23:46:04 - INFO - model-gin, dataset-kiba, epoch-252, loss-0.2040, cindex-0.8158, test_loss-0.1919
+2024-05-08 23:46:04 - INFO - Saving model...
+2024-05-08 23:46:33 - INFO - model-gin, dataset-kiba, epoch-253, loss-0.2056, cindex-0.8157, test_loss-0.1984
+2024-05-08 23:47:02 - INFO - model-gin, dataset-kiba, epoch-254, loss-0.2004, cindex-0.8176, test_loss-0.1925
+2024-05-08 23:47:32 - INFO - model-gin, dataset-kiba, epoch-255, loss-0.2011, cindex-0.8177, test_loss-0.1976
+2024-05-08 23:48:02 - INFO - model-gin, dataset-kiba, epoch-256, loss-0.1962, cindex-0.8202, test_loss-0.1931
+2024-05-08 23:48:32 - INFO - model-gin, dataset-kiba, epoch-257, loss-0.1972, cindex-0.8192, test_loss-0.2106
+2024-05-08 23:49:01 - INFO - model-gin, dataset-kiba, epoch-258, loss-0.1942, cindex-0.8209, test_loss-0.1872
+2024-05-08 23:49:01 - INFO - Saving model...
+2024-05-08 23:49:32 - INFO - model-gin, dataset-kiba, epoch-259, loss-0.1952, cindex-0.8204, test_loss-0.1830
+2024-05-08 23:49:32 - INFO - Saving model...
+2024-05-08 23:50:01 - INFO - model-gin, dataset-kiba, epoch-260, loss-0.1948, cindex-0.8209, test_loss-0.1861
+2024-05-08 23:50:31 - INFO - model-gin, dataset-kiba, epoch-261, loss-0.1923, cindex-0.8217, test_loss-0.1986
+2024-05-08 23:51:00 - INFO - model-gin, dataset-kiba, epoch-262, loss-0.1920, cindex-0.8221, test_loss-0.1982
+2024-05-08 23:51:30 - INFO - model-gin, dataset-kiba, epoch-263, loss-0.1888, cindex-0.8229, test_loss-0.1954
+2024-05-08 23:51:59 - INFO - model-gin, dataset-kiba, epoch-264, loss-0.1880, cindex-0.8234, test_loss-0.1872
+2024-05-08 23:52:29 - INFO - model-gin, dataset-kiba, epoch-265, loss-0.1863, cindex-0.8252, test_loss-0.1882
+2024-05-08 23:52:58 - INFO - model-gin, dataset-kiba, epoch-266, loss-0.1875, cindex-0.8251, test_loss-0.1858
+2024-05-08 23:53:28 - INFO - model-gin, dataset-kiba, epoch-267, loss-0.1849, cindex-0.8260, test_loss-0.1934
+2024-05-08 23:53:58 - INFO - model-gin, dataset-kiba, epoch-268, loss-0.1833, cindex-0.8266, test_loss-0.1858
+2024-05-08 23:54:28 - INFO - model-gin, dataset-kiba, epoch-269, loss-0.1813, cindex-0.8278, test_loss-0.1935
+2024-05-08 23:54:58 - INFO - model-gin, dataset-kiba, epoch-270, loss-0.1781, cindex-0.8289, test_loss-0.1879
+2024-05-08 23:55:27 - INFO - model-gin, dataset-kiba, epoch-271, loss-0.1805, cindex-0.8283, test_loss-0.1910
+2024-05-08 23:55:57 - INFO - model-gin, dataset-kiba, epoch-272, loss-0.1791, cindex-0.8296, test_loss-0.1824
+2024-05-08 23:55:57 - INFO - Saving model...
+2024-05-08 23:56:27 - INFO - model-gin, dataset-kiba, epoch-273, loss-0.1794, cindex-0.8298, test_loss-0.1868
+2024-05-08 23:56:57 - INFO - model-gin, dataset-kiba, epoch-274, loss-0.1763, cindex-0.8314, test_loss-0.1946
+2024-05-08 23:57:27 - INFO - model-gin, dataset-kiba, epoch-275, loss-0.1756, cindex-0.8307, test_loss-0.1898
+2024-05-08 23:57:56 - INFO - model-gin, dataset-kiba, epoch-276, loss-0.1722, cindex-0.8329, test_loss-0.1830
+2024-05-08 23:58:27 - INFO - model-gin, dataset-kiba, epoch-277, loss-0.1767, cindex-0.8317, test_loss-0.1862
+2024-05-08 23:58:56 - INFO - model-gin, dataset-kiba, epoch-278, loss-0.1733, cindex-0.8327, test_loss-0.1862
+2024-05-08 23:59:26 - INFO - model-gin, dataset-kiba, epoch-279, loss-0.1695, cindex-0.8339, test_loss-0.1860
+2024-05-08 23:59:55 - INFO - model-gin, dataset-kiba, epoch-280, loss-0.1698, cindex-0.8350, test_loss-0.1841
+2024-05-09 00:00:25 - INFO - model-gin, dataset-kiba, epoch-281, loss-0.1674, cindex-0.8351, test_loss-0.1812
+2024-05-09 00:00:25 - INFO - Saving model...
+2024-05-09 00:00:55 - INFO - model-gin, dataset-kiba, epoch-282, loss-0.1697, cindex-0.8353, test_loss-0.1819
+2024-05-09 00:01:25 - INFO - model-gin, dataset-kiba, epoch-283, loss-0.1642, cindex-0.8371, test_loss-0.1823
+2024-05-09 00:01:54 - INFO - model-gin, dataset-kiba, epoch-284, loss-0.1676, cindex-0.8362, test_loss-0.1972
+2024-05-09 00:02:24 - INFO - model-gin, dataset-kiba, epoch-285, loss-0.1644, cindex-0.8380, test_loss-0.1846
+2024-05-09 00:02:54 - INFO - model-gin, dataset-kiba, epoch-286, loss-0.1649, cindex-0.8382, test_loss-0.1879
+2024-05-09 00:03:24 - INFO - model-gin, dataset-kiba, epoch-287, loss-0.1630, cindex-0.8387, test_loss-0.1893
+2024-05-09 00:03:55 - INFO - model-gin, dataset-kiba, epoch-288, loss-0.1647, cindex-0.8388, test_loss-0.1851
+2024-05-09 00:04:25 - INFO - model-gin, dataset-kiba, epoch-289, loss-0.1626, cindex-0.8394, test_loss-0.1832
+2024-05-09 00:04:56 - INFO - model-gin, dataset-kiba, epoch-290, loss-0.1645, cindex-0.8377, test_loss-0.1872
+2024-05-09 00:05:26 - INFO - model-gin, dataset-kiba, epoch-291, loss-0.1607, cindex-0.8405, test_loss-0.1776
+2024-05-09 00:05:26 - INFO - Saving model...
+2024-05-09 00:05:56 - INFO - model-gin, dataset-kiba, epoch-292, loss-0.1583, cindex-0.8420, test_loss-0.1863
+2024-05-09 00:06:26 - INFO - model-gin, dataset-kiba, epoch-293, loss-0.1591, cindex-0.8414, test_loss-0.1742
+2024-05-09 00:06:26 - INFO - Saving model...
+2024-05-09 00:06:56 - INFO - model-gin, dataset-kiba, epoch-294, loss-0.1569, cindex-0.8426, test_loss-0.1897
+2024-05-09 00:07:28 - INFO - model-gin, dataset-kiba, epoch-295, loss-0.1578, cindex-0.8423, test_loss-0.1808
+2024-05-09 00:07:57 - INFO - model-gin, dataset-kiba, epoch-296, loss-0.1554, cindex-0.8436, test_loss-0.1836
+2024-05-09 00:08:28 - INFO - model-gin, dataset-kiba, epoch-297, loss-0.1555, cindex-0.8433, test_loss-0.1784
+2024-05-09 00:08:58 - INFO - model-gin, dataset-kiba, epoch-298, loss-0.1537, cindex-0.8445, test_loss-0.1856
+2024-05-09 00:09:28 - INFO - model-gin, dataset-kiba, epoch-299, loss-0.1537, cindex-0.8454, test_loss-0.1819
+2024-05-09 00:09:57 - INFO - model-gin, dataset-kiba, epoch-300, loss-0.1531, cindex-0.8451, test_loss-0.1865
+2024-05-09 00:10:26 - INFO - model-gin, dataset-kiba, epoch-301, loss-0.1527, cindex-0.8460, test_loss-0.1833
+2024-05-09 00:10:55 - INFO - model-gin, dataset-kiba, epoch-302, loss-0.1511, cindex-0.8457, test_loss-0.1834
+2024-05-09 00:11:24 - INFO - model-gin, dataset-kiba, epoch-303, loss-0.1491, cindex-0.8479, test_loss-0.1805
+2024-05-09 00:11:54 - INFO - model-gin, dataset-kiba, epoch-304, loss-0.1508, cindex-0.8478, test_loss-0.1807
+2024-05-09 00:12:23 - INFO - model-gin, dataset-kiba, epoch-305, loss-0.1482, cindex-0.8488, test_loss-0.1998
+2024-05-09 00:12:53 - INFO - model-gin, dataset-kiba, epoch-306, loss-0.1474, cindex-0.8493, test_loss-0.1827
+2024-05-09 00:13:22 - INFO - model-gin, dataset-kiba, epoch-307, loss-0.1483, cindex-0.8496, test_loss-0.1816
+2024-05-09 00:13:50 - INFO - model-gin, dataset-kiba, epoch-308, loss-0.1470, cindex-0.8494, test_loss-0.2053
+2024-05-09 00:14:19 - INFO - model-gin, dataset-kiba, epoch-309, loss-0.1473, cindex-0.8503, test_loss-0.1869
+2024-05-09 00:14:49 - INFO - model-gin, dataset-kiba, epoch-310, loss-0.1445, cindex-0.8516, test_loss-0.1742
+2024-05-09 00:14:49 - INFO - Saving model...
+2024-05-09 00:15:18 - INFO - model-gin, dataset-kiba, epoch-311, loss-0.1428, cindex-0.8517, test_loss-0.1828
+2024-05-09 00:15:47 - INFO - model-gin, dataset-kiba, epoch-312, loss-0.1438, cindex-0.8522, test_loss-0.1809
+2024-05-09 00:16:17 - INFO - model-gin, dataset-kiba, epoch-313, loss-0.1404, cindex-0.8532, test_loss-0.1827
+2024-05-09 00:16:46 - INFO - model-gin, dataset-kiba, epoch-314, loss-0.1438, cindex-0.8520, test_loss-0.1780
+2024-05-09 00:17:15 - INFO - model-gin, dataset-kiba, epoch-315, loss-0.1401, cindex-0.8540, test_loss-0.1792
+2024-05-09 00:17:44 - INFO - model-gin, dataset-kiba, epoch-316, loss-0.1404, cindex-0.8537, test_loss-0.1750
+2024-05-09 00:18:13 - INFO - model-gin, dataset-kiba, epoch-317, loss-0.1408, cindex-0.8543, test_loss-0.1780
+2024-05-09 00:18:42 - INFO - model-gin, dataset-kiba, epoch-318, loss-0.1389, cindex-0.8550, test_loss-0.1781
+2024-05-09 00:19:11 - INFO - model-gin, dataset-kiba, epoch-319, loss-0.1379, cindex-0.8552, test_loss-0.1901
+2024-05-09 00:19:40 - INFO - model-gin, dataset-kiba, epoch-320, loss-0.1399, cindex-0.8556, test_loss-0.1858
+2024-05-09 00:20:10 - INFO - model-gin, dataset-kiba, epoch-321, loss-0.1369, cindex-0.8560, test_loss-0.1791
+2024-05-09 00:20:38 - INFO - model-gin, dataset-kiba, epoch-322, loss-0.1371, cindex-0.8569, test_loss-0.1867
+2024-05-09 00:21:08 - INFO - model-gin, dataset-kiba, epoch-323, loss-0.1380, cindex-0.8567, test_loss-0.1773
+2024-05-09 00:21:36 - INFO - model-gin, dataset-kiba, epoch-324, loss-0.1362, cindex-0.8564, test_loss-0.1841
+2024-05-09 00:22:05 - INFO - model-gin, dataset-kiba, epoch-325, loss-0.1352, cindex-0.8573, test_loss-0.1742
+2024-05-09 00:22:05 - INFO - Saving model...
+2024-05-09 00:22:35 - INFO - model-gin, dataset-kiba, epoch-326, loss-0.1336, cindex-0.8584, test_loss-0.1739
+2024-05-09 00:22:35 - INFO - Saving model...
+2024-05-09 00:23:04 - INFO - model-gin, dataset-kiba, epoch-327, loss-0.1343, cindex-0.8584, test_loss-0.1804
+2024-05-09 00:23:33 - INFO - model-gin, dataset-kiba, epoch-328, loss-0.1308, cindex-0.8604, test_loss-0.1759
+2024-05-09 00:24:02 - INFO - model-gin, dataset-kiba, epoch-329, loss-0.1355, cindex-0.8587, test_loss-0.1797
+2024-05-09 00:24:31 - INFO - model-gin, dataset-kiba, epoch-330, loss-0.1318, cindex-0.8610, test_loss-0.1770
+2024-05-09 00:25:00 - INFO - model-gin, dataset-kiba, epoch-331, loss-0.1318, cindex-0.8603, test_loss-0.1781
+2024-05-09 00:25:29 - INFO - model-gin, dataset-kiba, epoch-332, loss-0.1313, cindex-0.8609, test_loss-0.1774
+2024-05-09 00:25:59 - INFO - model-gin, dataset-kiba, epoch-333, loss-0.1286, cindex-0.8627, test_loss-0.1735
+2024-05-09 00:25:59 - INFO - Saving model...
+2024-05-09 00:26:28 - INFO - model-gin, dataset-kiba, epoch-334, loss-0.1281, cindex-0.8627, test_loss-0.1732
+2024-05-09 00:26:28 - INFO - Saving model...
+2024-05-09 00:26:57 - INFO - model-gin, dataset-kiba, epoch-335, loss-0.1309, cindex-0.8617, test_loss-0.1758
+2024-05-09 00:27:26 - INFO - model-gin, dataset-kiba, epoch-336, loss-0.1290, cindex-0.8625, test_loss-0.1772
+2024-05-09 00:27:55 - INFO - model-gin, dataset-kiba, epoch-337, loss-0.1276, cindex-0.8641, test_loss-0.1717
+2024-05-09 00:27:55 - INFO - Saving model...
+2024-05-09 00:28:23 - INFO - model-gin, dataset-kiba, epoch-338, loss-0.1285, cindex-0.8631, test_loss-0.1872
+2024-05-09 00:28:53 - INFO - model-gin, dataset-kiba, epoch-339, loss-0.1263, cindex-0.8644, test_loss-0.1764
+2024-05-09 00:29:22 - INFO - model-gin, dataset-kiba, epoch-340, loss-0.1279, cindex-0.8637, test_loss-0.1774
+2024-05-09 00:29:52 - INFO - model-gin, dataset-kiba, epoch-341, loss-0.1249, cindex-0.8651, test_loss-0.1778
+2024-05-09 00:30:21 - INFO - model-gin, dataset-kiba, epoch-342, loss-0.1244, cindex-0.8660, test_loss-0.1752
+2024-05-09 00:30:50 - INFO - model-gin, dataset-kiba, epoch-343, loss-0.1251, cindex-0.8659, test_loss-0.1763
+2024-05-09 00:31:19 - INFO - model-gin, dataset-kiba, epoch-344, loss-0.1250, cindex-0.8656, test_loss-0.1744
+2024-05-09 00:31:47 - INFO - model-gin, dataset-kiba, epoch-345, loss-0.1230, cindex-0.8671, test_loss-0.1776
+2024-05-09 00:32:16 - INFO - model-gin, dataset-kiba, epoch-346, loss-0.1235, cindex-0.8672, test_loss-0.1796
+2024-05-09 00:32:44 - INFO - model-gin, dataset-kiba, epoch-347, loss-0.1228, cindex-0.8675, test_loss-0.1793
+2024-05-09 00:33:12 - INFO - model-gin, dataset-kiba, epoch-348, loss-0.1237, cindex-0.8675, test_loss-0.1845
+2024-05-09 00:33:40 - INFO - model-gin, dataset-kiba, epoch-349, loss-0.1210, cindex-0.8681, test_loss-0.1790
+2024-05-09 00:34:08 - INFO - model-gin, dataset-kiba, epoch-350, loss-0.1200, cindex-0.8690, test_loss-0.1805
+2024-05-09 00:34:36 - INFO - model-gin, dataset-kiba, epoch-351, loss-0.1228, cindex-0.8683, test_loss-0.1728
+2024-05-09 00:35:04 - INFO - model-gin, dataset-kiba, epoch-352, loss-0.1200, cindex-0.8696, test_loss-0.1860
+2024-05-09 00:35:32 - INFO - model-gin, dataset-kiba, epoch-353, loss-0.1204, cindex-0.8694, test_loss-0.1784
+2024-05-09 00:36:00 - INFO - model-gin, dataset-kiba, epoch-354, loss-0.1206, cindex-0.8698, test_loss-0.1869
+2024-05-09 00:36:28 - INFO - model-gin, dataset-kiba, epoch-355, loss-0.1201, cindex-0.8698, test_loss-0.1839
+2024-05-09 00:36:56 - INFO - model-gin, dataset-kiba, epoch-356, loss-0.1188, cindex-0.8703, test_loss-0.1769
+2024-05-09 00:37:25 - INFO - model-gin, dataset-kiba, epoch-357, loss-0.1176, cindex-0.8715, test_loss-0.1743
+2024-05-09 00:37:53 - INFO - model-gin, dataset-kiba, epoch-358, loss-0.1170, cindex-0.8716, test_loss-0.1777
+2024-05-09 00:38:22 - INFO - model-gin, dataset-kiba, epoch-359, loss-0.1173, cindex-0.8727, test_loss-0.1827
+2024-05-09 00:38:50 - INFO - model-gin, dataset-kiba, epoch-360, loss-0.1165, cindex-0.8718, test_loss-0.1764
+2024-05-09 00:39:18 - INFO - model-gin, dataset-kiba, epoch-361, loss-0.1165, cindex-0.8732, test_loss-0.1975
+2024-05-09 00:39:47 - INFO - model-gin, dataset-kiba, epoch-362, loss-0.1151, cindex-0.8734, test_loss-0.1714
+2024-05-09 00:39:47 - INFO - Saving model...
+2024-05-09 00:40:15 - INFO - model-gin, dataset-kiba, epoch-363, loss-0.1161, cindex-0.8723, test_loss-0.1779
+2024-05-09 00:40:43 - INFO - model-gin, dataset-kiba, epoch-364, loss-0.1156, cindex-0.8738, test_loss-0.1784
+2024-05-09 00:41:11 - INFO - model-gin, dataset-kiba, epoch-365, loss-0.1166, cindex-0.8733, test_loss-0.1744
+2024-05-09 00:41:40 - INFO - model-gin, dataset-kiba, epoch-366, loss-0.1129, cindex-0.8747, test_loss-0.1739
+2024-05-09 00:42:08 - INFO - model-gin, dataset-kiba, epoch-367, loss-0.1150, cindex-0.8750, test_loss-0.1758
+2024-05-09 00:42:37 - INFO - model-gin, dataset-kiba, epoch-368, loss-0.1119, cindex-0.8755, test_loss-0.1830
+2024-05-09 00:43:05 - INFO - model-gin, dataset-kiba, epoch-369, loss-0.1133, cindex-0.8747, test_loss-0.1921
+2024-05-09 00:43:34 - INFO - model-gin, dataset-kiba, epoch-370, loss-0.1123, cindex-0.8754, test_loss-0.1757
+2024-05-09 00:44:03 - INFO - model-gin, dataset-kiba, epoch-371, loss-0.1134, cindex-0.8758, test_loss-0.1791
+2024-05-09 00:44:31 - INFO - model-gin, dataset-kiba, epoch-372, loss-0.1134, cindex-0.8759, test_loss-0.1730
+2024-05-09 00:45:00 - INFO - model-gin, dataset-kiba, epoch-373, loss-0.1128, cindex-0.8765, test_loss-0.1908
+2024-05-09 00:45:28 - INFO - model-gin, dataset-kiba, epoch-374, loss-0.1124, cindex-0.8772, test_loss-0.1749
+2024-05-09 00:45:56 - INFO - model-gin, dataset-kiba, epoch-375, loss-0.1138, cindex-0.8766, test_loss-0.1856
+2024-05-09 00:46:24 - INFO - model-gin, dataset-kiba, epoch-376, loss-0.1102, cindex-0.8776, test_loss-0.1705
+2024-05-09 00:46:24 - INFO - Saving model...
+2024-05-09 00:46:53 - INFO - model-gin, dataset-kiba, epoch-377, loss-0.1104, cindex-0.8777, test_loss-0.1763
+2024-05-09 00:47:21 - INFO - model-gin, dataset-kiba, epoch-378, loss-0.1098, cindex-0.8782, test_loss-0.1787
+2024-05-09 00:47:50 - INFO - model-gin, dataset-kiba, epoch-379, loss-0.1101, cindex-0.8784, test_loss-0.1705
+2024-05-09 00:48:18 - INFO - model-gin, dataset-kiba, epoch-380, loss-0.1116, cindex-0.8778, test_loss-0.1726
+2024-05-09 00:48:46 - INFO - model-gin, dataset-kiba, epoch-381, loss-0.1095, cindex-0.8790, test_loss-0.1726
+2024-05-09 00:49:15 - INFO - model-gin, dataset-kiba, epoch-382, loss-0.1089, cindex-0.8794, test_loss-0.1731
+2024-05-09 00:49:42 - INFO - model-gin, dataset-kiba, epoch-383, loss-0.1098, cindex-0.8789, test_loss-0.1765
+2024-05-09 00:50:11 - INFO - model-gin, dataset-kiba, epoch-384, loss-0.1062, cindex-0.8804, test_loss-0.1772
+2024-05-09 00:50:40 - INFO - model-gin, dataset-kiba, epoch-385, loss-0.1105, cindex-0.8792, test_loss-0.1783
+2024-05-09 00:51:09 - INFO - model-gin, dataset-kiba, epoch-386, loss-0.1072, cindex-0.8807, test_loss-0.1706
+2024-05-09 00:51:37 - INFO - model-gin, dataset-kiba, epoch-387, loss-0.1065, cindex-0.8809, test_loss-0.1793
+2024-05-09 00:52:06 - INFO - model-gin, dataset-kiba, epoch-388, loss-0.1071, cindex-0.8809, test_loss-0.1765
+2024-05-09 00:52:34 - INFO - model-gin, dataset-kiba, epoch-389, loss-0.1063, cindex-0.8812, test_loss-0.1721
+2024-05-09 00:53:03 - INFO - model-gin, dataset-kiba, epoch-390, loss-0.1064, cindex-0.8816, test_loss-0.1757
+2024-05-09 00:53:32 - INFO - model-gin, dataset-kiba, epoch-391, loss-0.1073, cindex-0.8810, test_loss-0.1716
+2024-05-09 00:54:00 - INFO - model-gin, dataset-kiba, epoch-392, loss-0.1060, cindex-0.8819, test_loss-0.1694
+2024-05-09 00:54:00 - INFO - Saving model...
+2024-05-09 00:54:29 - INFO - model-gin, dataset-kiba, epoch-393, loss-0.1035, cindex-0.8824, test_loss-0.1776
+2024-05-09 00:54:57 - INFO - model-gin, dataset-kiba, epoch-394, loss-0.1050, cindex-0.8823, test_loss-0.1864
+2024-05-09 00:55:26 - INFO - model-gin, dataset-kiba, epoch-395, loss-0.1049, cindex-0.8825, test_loss-0.1754
+2024-05-09 00:55:55 - INFO - model-gin, dataset-kiba, epoch-396, loss-0.1042, cindex-0.8829, test_loss-0.1746
+2024-05-09 00:56:25 - INFO - model-gin, dataset-kiba, epoch-397, loss-0.1052, cindex-0.8829, test_loss-0.1804
+2024-05-09 00:56:54 - INFO - model-gin, dataset-kiba, epoch-398, loss-0.1033, cindex-0.8835, test_loss-0.1702
+2024-05-09 00:57:22 - INFO - model-gin, dataset-kiba, epoch-399, loss-0.1031, cindex-0.8840, test_loss-0.1757
+2024-05-09 00:57:51 - INFO - model-gin, dataset-kiba, epoch-400, loss-0.1026, cindex-0.8841, test_loss-0.1692
+2024-05-09 00:57:51 - INFO - Saving model...
+2024-05-09 00:58:19 - INFO - model-gin, dataset-kiba, epoch-401, loss-0.1030, cindex-0.8840, test_loss-0.1857
+2024-05-09 00:58:48 - INFO - model-gin, dataset-kiba, epoch-402, loss-0.1030, cindex-0.8842, test_loss-0.1757
+2024-05-09 00:59:17 - INFO - model-gin, dataset-kiba, epoch-403, loss-0.1028, cindex-0.8847, test_loss-0.1751
+2024-05-09 00:59:45 - INFO - model-gin, dataset-kiba, epoch-404, loss-0.1018, cindex-0.8850, test_loss-0.1726
+2024-05-09 01:00:13 - INFO - model-gin, dataset-kiba, epoch-405, loss-0.1019, cindex-0.8848, test_loss-0.1784
+2024-05-09 01:00:42 - INFO - model-gin, dataset-kiba, epoch-406, loss-0.1022, cindex-0.8848, test_loss-0.1726
+2024-05-09 01:01:10 - INFO - model-gin, dataset-kiba, epoch-407, loss-0.1025, cindex-0.8854, test_loss-0.1741
+2024-05-09 01:01:39 - INFO - model-gin, dataset-kiba, epoch-408, loss-0.1005, cindex-0.8860, test_loss-0.1760
+2024-05-09 01:02:07 - INFO - model-gin, dataset-kiba, epoch-409, loss-0.1016, cindex-0.8860, test_loss-0.1710
+2024-05-09 01:02:36 - INFO - model-gin, dataset-kiba, epoch-410, loss-0.0992, cindex-0.8873, test_loss-0.1814
+2024-05-09 01:03:05 - INFO - model-gin, dataset-kiba, epoch-411, loss-0.0990, cindex-0.8877, test_loss-0.1763
+2024-05-09 01:03:33 - INFO - model-gin, dataset-kiba, epoch-412, loss-0.0991, cindex-0.8874, test_loss-0.1706
+2024-05-09 01:04:02 - INFO - model-gin, dataset-kiba, epoch-413, loss-0.0980, cindex-0.8871, test_loss-0.1733
+2024-05-09 01:04:31 - INFO - model-gin, dataset-kiba, epoch-414, loss-0.0989, cindex-0.8881, test_loss-0.1741
+2024-05-09 01:05:00 - INFO - model-gin, dataset-kiba, epoch-415, loss-0.0986, cindex-0.8877, test_loss-0.1782
+2024-05-09 01:05:29 - INFO - model-gin, dataset-kiba, epoch-416, loss-0.1000, cindex-0.8873, test_loss-0.1722
+2024-05-09 01:05:58 - INFO - model-gin, dataset-kiba, epoch-417, loss-0.0978, cindex-0.8885, test_loss-0.1747
+2024-05-09 01:06:27 - INFO - model-gin, dataset-kiba, epoch-418, loss-0.0995, cindex-0.8882, test_loss-0.1706
+2024-05-09 01:06:55 - INFO - model-gin, dataset-kiba, epoch-419, loss-0.0979, cindex-0.8882, test_loss-0.1679
+2024-05-09 01:06:55 - INFO - Saving model...
+2024-05-09 01:07:25 - INFO - model-gin, dataset-kiba, epoch-420, loss-0.0982, cindex-0.8886, test_loss-0.1684
+2024-05-09 01:07:53 - INFO - model-gin, dataset-kiba, epoch-421, loss-0.0997, cindex-0.8888, test_loss-0.1788
+2024-05-09 01:08:22 - INFO - model-gin, dataset-kiba, epoch-422, loss-0.0976, cindex-0.8889, test_loss-0.1662
+2024-05-09 01:08:22 - INFO - Saving model...
+2024-05-09 01:08:51 - INFO - model-gin, dataset-kiba, epoch-423, loss-0.0969, cindex-0.8896, test_loss-0.1708
+2024-05-09 01:09:20 - INFO - model-gin, dataset-kiba, epoch-424, loss-0.0982, cindex-0.8888, test_loss-0.1785
+2024-05-09 01:09:48 - INFO - model-gin, dataset-kiba, epoch-425, loss-0.0963, cindex-0.8901, test_loss-0.1700
+2024-05-09 01:10:17 - INFO - model-gin, dataset-kiba, epoch-426, loss-0.0968, cindex-0.8899, test_loss-0.1718
+2024-05-09 01:10:46 - INFO - model-gin, dataset-kiba, epoch-427, loss-0.0960, cindex-0.8897, test_loss-0.1758
+2024-05-09 01:11:14 - INFO - model-gin, dataset-kiba, epoch-428, loss-0.0953, cindex-0.8907, test_loss-0.1747
+2024-05-09 01:11:43 - INFO - model-gin, dataset-kiba, epoch-429, loss-0.0950, cindex-0.8907, test_loss-0.1709
+2024-05-09 01:12:12 - INFO - model-gin, dataset-kiba, epoch-430, loss-0.0960, cindex-0.8906, test_loss-0.1727
+2024-05-09 01:12:40 - INFO - model-gin, dataset-kiba, epoch-431, loss-0.0963, cindex-0.8899, test_loss-0.1705
+2024-05-09 01:13:09 - INFO - model-gin, dataset-kiba, epoch-432, loss-0.0946, cindex-0.8911, test_loss-0.1710
+2024-05-09 01:13:37 - INFO - model-gin, dataset-kiba, epoch-433, loss-0.0966, cindex-0.8906, test_loss-0.1694
+2024-05-09 01:14:06 - INFO - model-gin, dataset-kiba, epoch-434, loss-0.0965, cindex-0.8909, test_loss-0.1643
+2024-05-09 01:14:06 - INFO - Saving model...
+2024-05-09 01:14:35 - INFO - model-gin, dataset-kiba, epoch-435, loss-0.0942, cindex-0.8917, test_loss-0.1708
+2024-05-09 01:15:03 - INFO - model-gin, dataset-kiba, epoch-436, loss-0.0940, cindex-0.8918, test_loss-0.1717
+2024-05-09 01:15:32 - INFO - model-gin, dataset-kiba, epoch-437, loss-0.0950, cindex-0.8918, test_loss-0.1769
+2024-05-09 01:16:00 - INFO - model-gin, dataset-kiba, epoch-438, loss-0.0946, cindex-0.8922, test_loss-0.1653
+2024-05-09 01:16:29 - INFO - model-gin, dataset-kiba, epoch-439, loss-0.0929, cindex-0.8924, test_loss-0.1667
+2024-05-09 01:16:58 - INFO - model-gin, dataset-kiba, epoch-440, loss-0.0931, cindex-0.8922, test_loss-0.1736
+2024-05-09 01:17:27 - INFO - model-gin, dataset-kiba, epoch-441, loss-0.0937, cindex-0.8926, test_loss-0.1713
+2024-05-09 01:17:57 - INFO - model-gin, dataset-kiba, epoch-442, loss-0.0936, cindex-0.8922, test_loss-0.1715
+2024-05-09 01:18:26 - INFO - model-gin, dataset-kiba, epoch-443, loss-0.0936, cindex-0.8927, test_loss-0.1711
+2024-05-09 01:18:56 - INFO - model-gin, dataset-kiba, epoch-444, loss-0.0929, cindex-0.8932, test_loss-0.1734
+2024-05-09 01:19:26 - INFO - model-gin, dataset-kiba, epoch-445, loss-0.0927, cindex-0.8930, test_loss-0.1714
+2024-05-09 01:19:56 - INFO - model-gin, dataset-kiba, epoch-446, loss-0.0918, cindex-0.8935, test_loss-0.1722
+2024-05-09 01:20:25 - INFO - model-gin, dataset-kiba, epoch-447, loss-0.0920, cindex-0.8943, test_loss-0.1696
+2024-05-09 01:20:55 - INFO - model-gin, dataset-kiba, epoch-448, loss-0.0915, cindex-0.8942, test_loss-0.1710
+2024-05-09 01:21:24 - INFO - model-gin, dataset-kiba, epoch-449, loss-0.0923, cindex-0.8944, test_loss-0.1777
+2024-05-09 01:21:54 - INFO - model-gin, dataset-kiba, epoch-450, loss-0.0931, cindex-0.8933, test_loss-0.1722
+2024-05-09 01:22:24 - INFO - model-gin, dataset-kiba, epoch-451, loss-0.0915, cindex-0.8945, test_loss-0.1710
+2024-05-09 01:22:55 - INFO - model-gin, dataset-kiba, epoch-452, loss-0.0908, cindex-0.8943, test_loss-0.1696
+2024-05-09 01:23:24 - INFO - model-gin, dataset-kiba, epoch-453, loss-0.0915, cindex-0.8942, test_loss-0.1679
+2024-05-09 01:23:53 - INFO - model-gin, dataset-kiba, epoch-454, loss-0.0914, cindex-0.8945, test_loss-0.1673
+2024-05-09 01:24:22 - INFO - model-gin, dataset-kiba, epoch-455, loss-0.0912, cindex-0.8957, test_loss-0.1690
+2024-05-09 01:24:52 - INFO - model-gin, dataset-kiba, epoch-456, loss-0.0927, cindex-0.8938, test_loss-0.1692
+2024-05-09 01:25:21 - INFO - model-gin, dataset-kiba, epoch-457, loss-0.0902, cindex-0.8949, test_loss-0.1696
+2024-05-09 01:25:50 - INFO - model-gin, dataset-kiba, epoch-458, loss-0.0891, cindex-0.8957, test_loss-0.1774
+2024-05-09 01:26:19 - INFO - model-gin, dataset-kiba, epoch-459, loss-0.0897, cindex-0.8960, test_loss-0.1703
+2024-05-09 01:26:49 - INFO - model-gin, dataset-kiba, epoch-460, loss-0.0904, cindex-0.8950, test_loss-0.1681
+2024-05-09 01:27:18 - INFO - model-gin, dataset-kiba, epoch-461, loss-0.0901, cindex-0.8958, test_loss-0.1677
+2024-05-09 01:27:48 - INFO - model-gin, dataset-kiba, epoch-462, loss-0.0893, cindex-0.8960, test_loss-0.1925
+2024-05-09 01:28:17 - INFO - model-gin, dataset-kiba, epoch-463, loss-0.0899, cindex-0.8956, test_loss-0.1698
+2024-05-09 01:28:47 - INFO - model-gin, dataset-kiba, epoch-464, loss-0.0883, cindex-0.8967, test_loss-0.1682
+2024-05-09 01:29:16 - INFO - model-gin, dataset-kiba, epoch-465, loss-0.0894, cindex-0.8965, test_loss-0.1708
+2024-05-09 01:29:46 - INFO - model-gin, dataset-kiba, epoch-466, loss-0.0893, cindex-0.8961, test_loss-0.1714
+2024-05-09 01:30:15 - INFO - model-gin, dataset-kiba, epoch-467, loss-0.0895, cindex-0.8965, test_loss-0.1753
+2024-05-09 01:30:44 - INFO - model-gin, dataset-kiba, epoch-468, loss-0.0889, cindex-0.8964, test_loss-0.1678
+2024-05-09 01:31:14 - INFO - model-gin, dataset-kiba, epoch-469, loss-0.0876, cindex-0.8974, test_loss-0.1757
+2024-05-09 01:31:43 - INFO - model-gin, dataset-kiba, epoch-470, loss-0.0897, cindex-0.8967, test_loss-0.1761
+2024-05-09 01:32:13 - INFO - model-gin, dataset-kiba, epoch-471, loss-0.0875, cindex-0.8973, test_loss-0.1687
+2024-05-09 01:32:42 - INFO - model-gin, dataset-kiba, epoch-472, loss-0.0881, cindex-0.8969, test_loss-0.1682
+2024-05-09 01:33:11 - INFO - model-gin, dataset-kiba, epoch-473, loss-0.0894, cindex-0.8977, test_loss-0.1811
+2024-05-09 01:33:40 - INFO - model-gin, dataset-kiba, epoch-474, loss-0.0910, cindex-0.8965, test_loss-0.1676
+2024-05-09 01:34:09 - INFO - model-gin, dataset-kiba, epoch-475, loss-0.0879, cindex-0.8977, test_loss-0.1720
+2024-05-09 01:34:37 - INFO - model-gin, dataset-kiba, epoch-476, loss-0.0878, cindex-0.8978, test_loss-0.1671
+2024-05-09 01:35:06 - INFO - model-gin, dataset-kiba, epoch-477, loss-0.0866, cindex-0.8990, test_loss-0.1685
+2024-05-09 01:35:35 - INFO - model-gin, dataset-kiba, epoch-478, loss-0.0882, cindex-0.8978, test_loss-0.1697
+2024-05-09 01:36:03 - INFO - model-gin, dataset-kiba, epoch-479, loss-0.0873, cindex-0.8983, test_loss-0.1697
+2024-05-09 01:36:32 - INFO - model-gin, dataset-kiba, epoch-480, loss-0.0868, cindex-0.8990, test_loss-0.1692
+2024-05-09 01:37:01 - INFO - model-gin, dataset-kiba, epoch-481, loss-0.0879, cindex-0.8986, test_loss-0.1663
+2024-05-09 01:37:30 - INFO - model-gin, dataset-kiba, epoch-482, loss-0.0862, cindex-0.8990, test_loss-0.1704
+2024-05-09 01:37:58 - INFO - model-gin, dataset-kiba, epoch-483, loss-0.0877, cindex-0.8979, test_loss-0.1679
+2024-05-09 01:38:27 - INFO - model-gin, dataset-kiba, epoch-484, loss-0.0870, cindex-0.8986, test_loss-0.1692
+2024-05-09 01:38:56 - INFO - model-gin, dataset-kiba, epoch-485, loss-0.0868, cindex-0.8990, test_loss-0.1700
+2024-05-09 01:39:24 - INFO - model-gin, dataset-kiba, epoch-486, loss-0.0861, cindex-0.8989, test_loss-0.1647
+2024-05-09 01:39:53 - INFO - model-gin, dataset-kiba, epoch-487, loss-0.0867, cindex-0.8992, test_loss-0.1699
+2024-05-09 01:40:22 - INFO - model-gin, dataset-kiba, epoch-488, loss-0.0874, cindex-0.8994, test_loss-0.1665
+2024-05-09 01:40:51 - INFO - model-gin, dataset-kiba, epoch-489, loss-0.0867, cindex-0.8997, test_loss-0.1735
+2024-05-09 01:41:19 - INFO - model-gin, dataset-kiba, epoch-490, loss-0.0859, cindex-0.8987, test_loss-0.1651
+2024-05-09 01:41:48 - INFO - model-gin, dataset-kiba, epoch-491, loss-0.0873, cindex-0.8989, test_loss-0.1693
+2024-05-09 01:42:17 - INFO - model-gin, dataset-kiba, epoch-492, loss-0.0872, cindex-0.8991, test_loss-0.1697
+2024-05-09 01:42:46 - INFO - model-gin, dataset-kiba, epoch-493, loss-0.0851, cindex-0.8998, test_loss-0.1678
+2024-05-09 01:43:15 - INFO - model-gin, dataset-kiba, epoch-494, loss-0.0854, cindex-0.8996, test_loss-0.1666
+2024-05-09 01:43:43 - INFO - model-gin, dataset-kiba, epoch-495, loss-0.0846, cindex-0.8999, test_loss-0.1696
+2024-05-09 01:44:13 - INFO - model-gin, dataset-kiba, epoch-496, loss-0.0860, cindex-0.8994, test_loss-0.1702
+2024-05-09 01:44:42 - INFO - model-gin, dataset-kiba, epoch-497, loss-0.0850, cindex-0.8999, test_loss-0.1680
+2024-05-09 01:45:11 - INFO - model-gin, dataset-kiba, epoch-498, loss-0.0867, cindex-0.8997, test_loss-0.1753
+2024-05-09 01:45:39 - INFO - model-gin, dataset-kiba, epoch-499, loss-0.0855, cindex-0.9001, test_loss-0.1759
+2024-05-09 01:46:08 - INFO - model-gin, dataset-kiba, epoch-500, loss-0.0861, cindex-0.8995, test_loss-0.1681

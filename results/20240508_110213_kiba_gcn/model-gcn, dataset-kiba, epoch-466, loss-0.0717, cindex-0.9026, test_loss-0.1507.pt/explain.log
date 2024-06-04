@@ -1,0 +1,24 @@
+2024-05-15 10:46:20 - INFO - explain.py
+2024-05-15 10:46:22 - INFO - GraphDTA + GCN model loaded successfully!
+2024-05-15 10:51:15 - INFO - Thresholding at the 0-th quantile!
+2024-05-15 10:51:15 - INFO - Saliency threshold (Drug): 0.000
+2024-05-15 10:51:15 - INFO - Saliency threshold (Targ): 0.000
+2024-05-15 11:47:26 - INFO - explain.py
+2024-05-15 11:47:28 - INFO - GraphDTA + GCN model loaded successfully!
+2024-05-15 11:51:40 - INFO - Thresholding at the mean activation!
+2024-05-15 11:51:40 - INFO - Saliency threshold (Drug): 0.373
+2024-05-15 11:51:40 - INFO - Saliency threshold (Targ): 0.013
+2024-05-15 11:51:40 - INFO - Masking drugs...
+2024-05-15 11:54:58 - INFO - explain.py
+2024-05-15 11:55:01 - INFO - GraphDTA + GCN model loaded successfully!
+2024-05-15 11:59:43 - INFO - Thresholding at the mean activation!
+2024-05-15 11:59:43 - INFO - Saliency threshold (Drug): 0.373
+2024-05-15 11:59:43 - INFO - Saliency threshold (Targ): 0.013
+2024-05-15 11:59:43 - INFO - Masking targets...
+2024-05-15 12:03:00 - INFO - explain.py
+2024-05-15 12:03:02 - INFO - GraphDTA + GCN model loaded successfully!
+2024-05-15 12:07:44 - INFO - Thresholding at the mean activation!
+2024-05-15 12:07:44 - INFO - Saliency threshold (Drug): 0.373
+2024-05-15 12:07:44 - INFO - Saliency threshold (Targ): 0.013
+2024-05-15 12:07:44 - INFO - Masking drugs...
+2024-05-15 12:07:44 - INFO - Masking targets...
