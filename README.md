@@ -5,7 +5,7 @@ Repository containing all the code written for the course project of CS6024: Alg
 Folder structure of the project directory is given below:
 
 ```
-    ├── data            [datasets for XOR and Transverse Ising Model (TIM) classification tasks]
+    ├── data            
     │   ├── Davis
     │   │   └── ...     (raw files: get processed data by running preprocessing.py)
     │   └── KIBA
